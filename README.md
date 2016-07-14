@@ -15,7 +15,7 @@ Put the following code inside `<body>` tag
 <script type="text/javascript">
 try {
     Umobi.AdView({
-        pub: <unqiue identifier for a ad placement>,
+        pub: '<unqiue identifier for a ad placement>',
         format_type:Umobi.AdFormatType.BANNER
     });
 } cache(e) {}
@@ -31,7 +31,7 @@ Put the following code inside `<body>` tag
 <script type="text/javascript">
 try {
     Umobi.AdView({
-        pub: <unqiue identifier for a ad placement>,
+        pub: '<unqiue identifier for a ad placement>',
         format_type:Umobi.AdFormatType.TEXT
     });
 } cache(e) {}
@@ -49,9 +49,9 @@ Put the following code inside `<head>` tag
 <script type="text/javascript">
 try {
     Umobi.AdView({
-        pub: <unqiue identifier for a ad placement>,
-        format_type:Umobi.AdFormatType.BANNER
-        container: <container id>
+        pub: '<unqiue identifier for a ad placement>',
+        format_type:Umobi.AdFormatType.BANNER,
+        container: '<container id>'
     });
 } cache(e) {}
 </script>
@@ -62,7 +62,7 @@ Usually `container id` is refer to a `div`'s id in `<body>` tag
 ```javascript
 <body>
 ...
-<div id=`container id`></div>
+<div id="<container id>"></div>
 ...
 </body>
 ```
